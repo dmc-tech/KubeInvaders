@@ -1,0 +1,13 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: kubeinvaders
+  namespace: kubeinvaders
+spec:
+  releaseName: kubeinvaders
+  chart:
+    git: https://github.com/dmc-tech/KubeInvaders
+    ref: master
+    path: helm-charts/kubeinvaders
+  values:
+    serviceName: ingress-nginxkubeinvaders
