@@ -60,7 +60,7 @@ nodeSelector: {}
 tolerations: []
 
 route_host: kubernetes.default.svc
-target_namespace: "foobar"
+target_namespace: "arc"
 hitslimit: 1
 alienproximity: 15
 updatetime: 1
