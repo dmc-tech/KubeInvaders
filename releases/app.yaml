@@ -10,4 +10,4 @@ spec:
     ref: master
     path: helm-charts/kubeinvaders
   values:
-    serviceName: ingress-nginxkubeinvaders
+    serviceName: kubeinvaders
