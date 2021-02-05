@@ -10,4 +10,4 @@ spec:
     ref: master
     path: helm-charts/kubeinvaders
   values:
-    target_namespace: "arc"
+    target_namespace: "arc,azure-arc"
