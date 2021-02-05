@@ -11,3 +11,5 @@ spec:
     path: helm-charts/kubeinvaders
   values:
     target_namespace: "azure-arc"
+    ingress:
+      hostName: kubeinvaders.external
